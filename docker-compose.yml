@@ -3,9 +3,9 @@ services:
     image: postgres:16
     container_name: bigdata_snowflake_pg
     environment:
-      POSTGRES_DB: bigdata
+      POSTGRES_DB: bigdataSnowflake
       POSTGRES_USER: bigdata
-      POSTGRES_PASSWORD: bigdata
+      POSTGRES_PASSWORD: bddb
     ports:
       - "5433:5432"
     volumes:
